@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Homework Week 5</title>
+  </head>
+  <body>
+    <form id="search-form">
+      <input
+        type="text"
+        placeholder="Type a city..."
+        autocomplete="off"
+        autofocus="on"
+        id="city-input"
+      />
+      <input type="submit" value="Search" />
+    </form>
+    <button id="current">Current</button>
+    <p id="current-display"></p>
+    <h1 id="city">Omaha, NE</h1>
+    <p id="time">The time is</p>
+    <p id="description">Partly Cloudy</p>
+    <p id="temperature">🌤 19 C | F</p>
+    <p id="humidity"></p>
+    <p id="wind"></p>
+    <script src="src/index.js"></script>
+  </body>
+</html>
